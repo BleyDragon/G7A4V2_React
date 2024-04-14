@@ -1,0 +1,88 @@
+
+/* Menu ingreso */
+
+.menu1 z-depth-2´{
+  z-index: 2;
+}
+
+.menu1 {
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-40%, -40%);
+    text-align: center;
+    width: 18%;
+    height: 300px;
+    border: 1px solid;
+    border-color: black;
+    padding: 20px;
+}
+
+
+.texto_titulo {
+     font-family: 'Work Sans', sans-serif;
+     color: #212121;
+    }
+
+/* Menu ingreso */
+.logo_ingreso1 {
+    object-fit: cover; /* La imagen se ajusta manteniendo su relación de aspecto y sin distorsionarse */
+    object-position: center; /* Centra la imagen horizontal y verticalmente dentro del contenedor */
+    width: 20%;
+    height: 20%;
+    overflow: visible; /* permite que la imagen quede enfrente  */
+
+}
+
+  .boton_menu_ovalado1 {
+    width: 80%;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #fff;
+    font-family: "Arial Narrow", sans-serif;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border: 1px solid black;
+    color: black;
+  }
+
+  .boton_menu_ovalado1:hover {
+    background-color: gray; 
+  }
+
+  .boton_menu_ovalado2 {
+    width: 80%;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    background-color: #fff;
+    font-family: "Arial Narrow", sans-serif;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border: 1px solid black;
+    color: black;
+  }
+
+  .boton_menu_ovalado2:hover {
+    background-color: gray;
+  }
+
+  .boton_menu_ovalado3 {
+    width: 80%;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #fff;
+    font-family: "Arial Narrow", sans-serif;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border: 1px solid black;
+    color: black;
+  }
+
+  .boton_menu_ovalado3:hover {
+    background-color: gray;
+  }
